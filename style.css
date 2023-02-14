@@ -1,0 +1,50 @@
+body {
+    background: black;
+}
+
+h1 {
+    color: forestgreen;
+    text-align: center;
+}
+
+.canvas {
+    width: 200px;
+    height: 200px;
+    border: 1px solid forestgreen;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    width: 20px;
+    height: 20px;
+    border: 1px black solid;
+    box-sizing: border-box;
+}
+
+.snake {
+    background: forestgreen;
+}
+
+.apple {
+    background: red;
+    border-radius: 20px;
+}
+
+.popup {
+    background: forestgreen;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 125px;
+    left: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
